@@ -1,8 +1,10 @@
-function wordPalimdrome(word1, word2){
+function wordPalimdrome(word){
+   
+   const wordReverse = word.plit("").reverse().join("");
 
+if(wordReverse === word){
 
-
-
-
-
+console.log("The word is palendrome")} else{console.log("The word is not palindrom")}
 }
+
+console.log(wordPalimdrome("Anana"))
