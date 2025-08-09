@@ -1,10 +1,15 @@
 function wordPalimdrome(word){
-   
-   const wordReverse = word.plit("").reverse().join("");
+  const wordSplit = word.split("")
+  const wordReverse = wordSplit.reverse()
+  const wordJoin = wordReverse.join("")
 
-if(wordReverse === word){
+if(wordJoin === word){
+console.log(`The word ${word} is palendrome`)} 
+else{console.log(`The word ${word} is not palindrom`)}
 
-console.log("The word is palendrome")} else{console.log("The word is not palindrom")}
+return 0
 }
 
-console.log(wordPalimdrome("Anana"))
+console.log(wordPalimdrome("anana"))
+console.log(wordPalimdrome("mama"))
+console.log(wordPalimdrome("rama"))
