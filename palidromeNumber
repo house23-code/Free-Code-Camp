@@ -1,0 +1,13 @@
+function palimdromeNumber(number){
+
+  const numberSplit = number.split("");
+  const numberReverse = numberSplit.reverse();
+  const numberJoin = numbeReverse.join("")
+
+  if(number = numberJoin) {
+    console.log(`The number ${number} is palindrome`)
+}else {
+  console.log(`The number ${number} is not palindrome`)
+}
+return 0
+}
